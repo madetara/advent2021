@@ -1,4 +1,5 @@
 .devcontainer
+.vscode
 target
 out.txt
 1.txt
