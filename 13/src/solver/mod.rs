@@ -22,9 +22,9 @@ pub fn solve_2((points, folds): &(HashSet<(usize, usize)>, Vec<Fold>)) {
     for j in 0..=height {
         for i in 0..=width {
             if result.as_ref().contains(&(i, j)) {
-                print!("#");
+                print!("█");
             } else {
-                print!(".");
+                print!(" ");
             }
         }
         println!();
